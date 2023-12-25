@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archived Recipes</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"], ["\\[", "\\]"]] },
+            "HTML-CSS": {
+                linebreaks: { automatic: true, width: "container" }
+            }
+        });
+
+
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+    <header>
+        <h1>All Archived Recipes</h1>
+        <h2>Beer-Batter-Fried Mushrooms</h2>
+    </header>
+<main>
+    <!-- https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ -->
+    <div id="info" class="main-element">
+        \[ \textbf{Information} \]
+        <ul>
+         <li> Prepares 4-6 servings in total </li>
+        </ul>
+     </div>
+     <br>
+    <div id="ingredients" class="main-element">
+       \[ \textbf{Ingredients} \]
+       <ul>
+        <li> ½ Cup Flour</li>
+        <li> ¾ tsp Salt </li>
+        <li> ½ tsp Baking Powder </li>
+        <li> ¼ tsp Pepper </li>
+        <li> 1 egg, beaten</li>
+        <li> ½ Cup Beer</li>
+        <li> 1 pound Fresh Mushrooms Salt</li>
+       </ul>
+    </div>
+    <br>
+    <div id="instructions" class="main-element">
+        \[ \textbf{Instructions} \]
+        <ol>
+            <li> Sift flour, salt, baking powder, and pepper into bowl.</li>
+            <li> Blend in beten egg and beer; let batter stand 30 minutes. Meanwhile, clean mushrooms using damp towel, if possible, or quickly dip into water and pat dry.</li>
+            <li> Cut into quarters, if large. Put a few mushrooms pieces at a time into batter, and stir with spatula to coat.</li>
+            <li> Pick up and drain in slotted spoon or scoop. Fry in deep fat heated to about 375°F 1-2 minutes, or until golden brown. Turn once.</li>
+            <li> Drain on paper towels, sprinkle with salt, and serve hot.</li>
+        </ol>
+    </div>
+    <br>
+    <div id="Go-Back" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.location.replace('../index.html')">
+        Go Back
+    </div>
+</main>
+<script>
+    document.getElementById("Go-Back").style.textAlign = "center";
+</script>
+
+</body>
+</html>

@@ -6,7 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
@@ -26,31 +26,36 @@
 <body>
     <header>
         <h1>All Archived Recipes</h1>
-        <h2>Grandma Rose's Recipes</h2>
+        <h2>Pizelle</h2>
     </header>
 <main>
     <!-- https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ -->
-    <div id="ssg" class="main-element" onclick="window.location.replace('g_rose/ssg.html')" onmouseover="this.style.cursor='pointer'">
-        \[ \textbf{Simple Sloppy Joes} \]
+    <div id="ingredients" class="main-element">
+       \[ \textbf{Ingredients} \]
+       <ul>
+        <li> 6 eggs, beaten </li>
+        <li> 1½ Cups of Sugar </li>
+        <li> 1 Cup Margarine </li>
+        <li> 4 tsp Baking Powder </li>
+        <li> 2 tbsp anise / Lemon-Vanilla Extract </li>
+        <li> 3½ Cups of Flour</li>
+       </ul>
     </div>
     <br>
-    <div id="ssc" class="main-element" onclick="window.location.replace('g_rose/ssc.html')" onmouseover="this.style.cursor='pointer'">
-        \[ \textbf{Sweet-Sour Cucumbers} \]
+    <div id="instructions" class="main-element">
+        \[ \textbf{Instructions} \]
+        <ol>
+            <li> Combine all incredients in a nonstick tray, and bake for 30sec (max 1min).</li>
+        </ol>
     </div>
     <br>
-    <div id="pizelle" class="main-element" onclick="window.location.replace('g_rose/pizelle.html')" onmouseover="this.style.cursor='pointer'">
-        \[ \textbf{Pizelle} \]
+    <div id="Go-Back" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.location.replace('../index.html')">
+        Go Back
     </div>
-	<br>
-    <div id="bbf" class="main-element" onclick="window.location.replace('g_rose/bbf.html')" onmouseover="this.style.cursor='pointer'">
-        \[ \textbf{Beer-Batter-Fried Mushrooms} \]
-    </div>
-	<br>
-    <div id="scp" class="main-element" onclick="window.location.replace('g_rose/scp.html')" onmouseover="this.style.cursor='pointer'">
-        \[ \textbf{Scalloped Potatoes} \]
-    </div>
-	<br>
 </main>
+<script>
+    document.getElementById("Go-Back").style.textAlign = "center";
+</script>
 
 </body>
 </html>

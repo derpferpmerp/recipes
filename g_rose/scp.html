@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archived Recipes</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"], ["\\[", "\\]"]] },
+            "HTML-CSS": {
+                linebreaks: { automatic: true, width: "container" }
+            }
+        });
+
+
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+    <header>
+        <h1>All Archived Recipes</h1>
+        <h2>Scalloped Potatoes</h2>
+    </header>
+<main>
+    <!-- https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ -->
+    <div id="info" class="main-element">
+        \[ \textbf{Information} \]
+        <ul>
+         <li> Prepares 4 cups in total </li>
+        </ul>
+    </div>
+    <br>
+    <div id="ingredients" class="main-element">
+       \[ \textbf{Ingredients} \]
+       <ul>
+        <li> 1 can Campbell's Cream of Mushroom Soup</li>
+        <li> ½ cup milk </li>
+        <li> 4 cups thinly sliced potatoes </li>
+        <li> ½ Cup thinly sliced onions </li>
+        <li> 1 cup shredded sharp Cheddar cheese</li>
+        <li> 1 tbsp butter or margarine</li>
+       </ul>
+    </div>
+    <br>
+    <div id="instructions" class="main-element">
+        \[ \textbf{Instructions} \]
+        <ol>
+            <li> Blend soup, milk, dash pepper.</li>
+            <li> In buttered 1½-qt. casserole, arrange alternate layers of potatoes, onion, soup mixture, and cheese.</li>
+            <li> Dot top with butter; sprinkle with paprika.</li>
+            <li> Cover and bake at 375°F for 1 hour.</li>
+            <li> Uncover; bake 15 min or more until done. </li>
+        </ol>
+    </div>
+    <br>
+    <div id="Go-Back" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.location.replace('../index.html')">
+        Go Back
+    </div>
+</main>
+<script>
+    document.getElementById("Go-Back").style.textAlign = "center";
+</script>
+
+</body>
+</html>

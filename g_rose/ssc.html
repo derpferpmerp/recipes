@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archived Recipes</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"], ["\\[", "\\]"]] },
+            "HTML-CSS": {
+                linebreaks: { automatic: true, width: "container" }
+            }
+        });
+
+
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+    <header>
+        <h1>All Archived Recipes</h1>
+        <h2>Sweet-Sour Cucumbers</h2>
+    </header>
+<main>
+    <!-- https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ -->
+    <div id="info" class="main-element">
+        \[ \textbf{Information} \]
+        <ul>
+         <li> Prepares 3 cups in total </li>
+         <li> 10 minutes total preparation time</li>
+        </ul>
+     </div>
+     <br>
+    <div id="ingredients" class="main-element">
+       \[ \textbf{Ingredients} \]
+       <ul>
+        <li> ½ Cup each: water, distilled white vinegar </li>
+        <li> ¾ Cup Sugar -- Pinch of Salt </li>
+        <li> 1 Large Cucumber </li>
+        <li> ½ Large White Onion </li>
+        <li> 2 Jalapeno Peppers, thinly sliced</li>
+       </ul>
+    </div>
+    <br>
+    <div id="instructions" class="main-element">
+        \[ \textbf{Instructions} \]
+        <ol>
+            <li> Put water, vinegar, sugar and salt into small saucepan. Heat to boil; simmer until sugar dissolves. Remove from head, cool.</li>
+            <li> Remove ends from cucumber (Peel if desired). Cut into ⅛-inch-thick slices. Cut slices into quarters. Cut onion into thin slices.</li>
+            <li> Mix cucumber, onion and cooled vinegar mixture in large bowl. Mix well. Serve garnished with peppers.</li>
+        </ol>
+    </div>
+    <br>
+    <div id="Go-Back" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.location.replace('../index.html')">
+        Go Back
+    </div>
+</main>
+<script>
+    document.getElementById("Go-Back").style.textAlign = "center";
+</script>
+
+</body>
+</html>
