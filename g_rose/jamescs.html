@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archived Recipes</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"], ["\\[", "\\]"]] },
+            "HTML-CSS": {
+                linebreaks: { automatic: true, width: "container" }
+            }
+        });
+
+
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+    <header>
+        <h1>All Archived Recipes</h1>
+        <h2>James Levine's Chicken Salad</h2>
+    </header>
+<main>
+    <!-- https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ -->
+    <div id="info" class="main-element">
+        \[ \textbf{Information} \]
+        <ul>
+         <li> Prepares 8 servings in total </li>
+         <li> Preparation Time: 30 minutes</li>
+         <li> Cooking Time: 35 minutes</li>
+         <li> Marinating Time: Overnight</li>
+        </ul>
+     </div>
+     <br>
+    <div id="ingredients" class="main-element">
+       \[ \textbf{Ingredients} \]
+       <ul>
+        <li> 4 Large Chicken Breasts </li>
+        <li> 2 Carrots </li>
+        <li> 2 Celery Stalks </li>
+        <li> 1 Quartered Medium Onion </li>
+        <li> 1 cup clear French or Italian salad dressing</li>
+        <li> 4 hard-cooked eggs</li>
+        <li> 1 cup chopped celery</li>
+        <li> 2 tbsp drained capers or to taste</li>
+        <li> 1 cup mayonnaise</li>
+        <li> 1 tbsp whipping cream -- Salt, pepper to taste.</li>
+       </ul>
+    </div>
+    <br>
+    <div id="instructions" class="main-element">
+        \[ \textbf{Instructions} \]
+        <ol>
+            <li> Put chicken breasts, carrots, whole celery stalks and onion into saucepan. Add water to cover. Simmer until chicken is tender, about 35 minutes. Drain; cool chicken.</li>
+            <li> Discard skin and remove meat from bones. Cut chicken into large bite-sized pieces. Put chicken into large bowl. Add French or Italian Salad Dressing. Refrigerate, covered, basting occasionally, overnight.</li>
+            <li> Drain off marinade thoroughly. Chop eggs and add to chicken with chopped celery and capers. Mix mayonnaise and whipping cream in small bowl. Gradually add to chicken using amount to achieve desired moistness of salad. Add salt and pepper to taste.</li>
+        </ol>
+    </div>
+    <br>
+    <div id="Go-Back" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.location.replace('../index.html')">
+        Go Back
+    </div>
+</main>
+<script>
+    document.getElementById("Go-Back").style.textAlign = "center";
+</script>
+
+</body>
+</html>
