@@ -108,5 +108,5 @@ main {
 .searchBarContainer { display: flex; flex-direction: column; flex: 0 0 100%; }
 
 .main-element + .main-element {
-    margin-top: 1vw;
+    margin-top: 1vh;
 }
