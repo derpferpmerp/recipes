@@ -6,51 +6,46 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    
 
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            showProcessingMessages: false,
-            messageStyle: "none",
-            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"], ["\\[", "\\]"]] },
-            "HTML-CSS": {
-                linebreaks: { automatic: true, width: "container" }
-            }
-        });
-
-
-    </script>
+    
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="config.js"></script>
 </head>
 <body>
     <header>
         <h1>All Archived Recipes</h1>
-        <h2>Grandma Rose's Recipes</h2>
     </header>
+    <div class="searchBarContainer">
+        <div class="wrap">
+            <div class="search">
+            <input name="search" type="text" class="searchTerm" placeholder="Search.." onkeyup="searchRecipes(this.value)">
+            </div>
+        </div>
+    </div>
 <main>
+    <header><h2> Grandma Rose's Recipes </h2></header>
+    <br>
     <!-- https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ -->
-    <div id="ssg" class="main-element" onclick="window.location.replace('g_rose/ssg.html')" onmouseover="this.style.cursor='pointer'">
+    <div id="recipe1" class="main-element" onclick="window.location.replace('g_rose/ssg.html')" onmouseover="this.style.cursor='pointer'">
         \[ \textbf{Simple Sloppy Joes} \]
     </div>
-    <br>
-    <div id="ssc" class="main-element" onclick="window.location.replace('g_rose/ssc.html')" onmouseover="this.style.cursor='pointer'">
+    <div id="recipe2" class="main-element" onclick="window.location.replace('g_rose/ssc.html')" onmouseover="this.style.cursor='pointer'">
         \[ \textbf{Sweet-Sour Cucumbers} \]
     </div>
-    <br>
-    <div id="pizelle" class="main-element" onclick="window.location.replace('g_rose/pizelle.html')" onmouseover="this.style.cursor='pointer'">
+    <div id="recipe3" class="main-element" onclick="window.location.replace('g_rose/pizelle.html')" onmouseover="this.style.cursor='pointer'">
         \[ \textbf{Pizelle} \]
     </div>
-	<br>
-    <div id="bbf" class="main-element" onclick="window.location.replace('g_rose/bbf.html')" onmouseover="this.style.cursor='pointer'">
+    <div id="recipe4" class="main-element" onclick="window.location.replace('g_rose/bbf.html')" onmouseover="this.style.cursor='pointer'">
         \[ \textbf{Beer-Batter-Fried Mushrooms} \]
     </div>
-	<br>
-    <div id="scp" class="main-element" onclick="window.location.replace('g_rose/scp.html')" onmouseover="this.style.cursor='pointer'">
+    <div id="recipe5" class="main-element" onclick="window.location.replace('g_rose/scp.html')" onmouseover="this.style.cursor='pointer'">
         \[ \textbf{Scalloped Potatoes} \]
     </div>
-	<br>
-    <div id="jamescs" class="main-element" onclick="window.location.replace('g_rose/jamescs.html')" onmouseover="this.style.cursor='pointer'">
+    <div id="recipe6" class="main-element" onclick="window.location.replace('g_rose/jamescs.html')" onmouseover="this.style.cursor='pointer'">
         \[ \textbf{James Levine's Classic Chicken Salad} \]
     </div>
 	<br>

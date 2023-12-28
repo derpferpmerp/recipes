@@ -23,7 +23,7 @@ header h1 {
 }
 
 main {
-    margin-top: 5vh;
+    /*margin-top: 5vh;*/
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -65,4 +65,48 @@ main {
     border-radius: 7px;
     background: #40444b;
     padding: 1vw;
+}
+
+/* --------------------- */
+/*  SEARCH BAR SETTINGS  */
+/* --------------------- */
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+  
+.searchTerm {
+    border: #36393f;
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: white;
+    background: #36393f;
+    resize: none;
+}
+  
+.searchTerm:focus{
+    color: white;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 95vw;
+    border-bottom: 1px solid #5e5e5e;
+    margin-top: 3vh;
+    display: flex;
+    flex: 0 0 100%;
+    /*position: absolute;*/
+    /*top: 10.4vh;*/
+    /*transform: translate(-60%, -50%);*/
+}
+
+.searchBarContainer { display: flex; flex-direction: column; flex: 0 0 100%; }
+
+.main-element + .main-element {
+    margin-top: 1vw;
 }
