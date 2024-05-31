@@ -110,3 +110,7 @@ main {
 .main-element + .main-element {
     margin-top: 1vh;
 }
+
+a {
+    text-decoration: none;
+}

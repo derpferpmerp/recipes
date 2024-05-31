@@ -37,12 +37,24 @@
         </object>
     </div>
     <br>
+    <div id="Download-File" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.open('./PDFS/HorizontalC.pdf','_blank');">
+        Download File (Mobile)
+    </div>
     <div id="Go-Back" class="main-element" onmouseover="this.style.cursor='pointer'" onclick="window.location.replace('./index.html')">
         Go Back
     </div>
+    
+        
+    <!--
+    <div id="any" class="main-element">
+        <form method="get" action="./PDFS/HorizontalC.pdf">
+            <button type="submit">Download File</button>
+        </form>
+    </div>-->
 </main>
 <script>
     document.getElementById("Go-Back").style.textAlign = "center";
+    document.getElementById("Download-File").style.textAlign = "center";
 </script>
 
 </body>
